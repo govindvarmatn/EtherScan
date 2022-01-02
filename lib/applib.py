@@ -105,7 +105,7 @@ class appLib( object ):
         sleep(180)
         self.client = self.getClient()
         print('re-initialed twitter client')
-        
+
 
     def send_message_telegram(self, message):
         url = self.telegram_send_message_url.replace('<message>', message)
