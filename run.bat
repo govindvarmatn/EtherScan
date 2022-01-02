@@ -1,0 +1,1 @@
+%CD%\venv\Scripts\python.exe %CD%/TwitterAPI_test.py %1%
