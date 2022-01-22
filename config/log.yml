@@ -1,0 +1,26 @@
+disable_existing_loggers: 0
+formatters:
+  consoleFormatter:
+    (): lib.ExecutionLogger.CustomFormatter
+    format_out: '%(asctime)s :: %(levelname)s :: [%(threadName)s | %(filename)s |
+      %(lineno)d] :: %(message)s'
+  fileFormatter:
+    format: '%(asctime)s :: %(levelname)s :: [%(threadName)s | %(filename)s | %(lineno)d]
+      :: %(message)s'
+handlers:
+  consoleHandler:
+    (): logging.StreamHandler
+    formatter: consoleFormatter
+    level: INFO
+    stream: ext://sys.stdout
+  fileHandler:
+    (): logging.FileHandler
+    filename: ''
+    formatter: fileFormatter
+    level: ERROR
+root:
+  handlers:
+  - consoleHandler
+  - fileHandler
+  level: INFO
+version: 1

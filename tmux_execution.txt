@@ -1,0 +1,24 @@
+## Basic cmd:
+tmus ls
+tmux a
+
+## create new tmux session:
+tmux new -s EtherScan
+tmux new -s FTMScan
+tmux new -s ARBIScan
+tmux new -s PolygonScan
+tmux new -s SnowTraceScan
+
+## go to specific sessions:
+tmux a -t EtherScan
+tmux a -t FTMScan
+
+## link:
+https://gist.github.com/henrik/1967800,
+https://tmuxcheatsheet.com0/
+
+## navigate between existing session:
+ctrl + b ) -> next session
+ctrl + b ( -> previos session
+ctrl + b d -> detach session
+

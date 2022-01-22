@@ -1,0 +1,1901 @@
+2022-01-16 17:45:44,195 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 19:05:39,115 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for michu 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 19:08:14,722 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 20:17:42,045 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoVault
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 20:17:42,193 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Silly Punts
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 20:36:32,155 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for juds sats
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-16 20:36:38,589 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-16 20:36:54,244 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-16 21:08:44,638 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 21:08:44,650 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-16 22:53:40,987 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Unihaxor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-17 01:35:09,845 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for 3AC 2nd Wallet
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 02:36:27,687 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Silly Punts
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 72, in get_erc721_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-17 05:52:57,486 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for FaZe Banks
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 07:45:23,223 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-17 07:45:26,255 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-17 08:44:44,749 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 11:32:07,691 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for iamDCinvestor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 17:08:50,264 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-17 17:25:52,500 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for spider 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 20:11:34,781 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 20:36:34,237 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Beanie
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 20:36:34,247 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for ColeThereum
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-17 20:45:41,753 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alex Nansen
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-17 20:45:44,899 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for iamDCinvestor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-18 01:21:15,355 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 01:21:15,483 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 01:21:38,988 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Moneyguru
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 01:21:39,199 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Moneyguru
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 04:35:36,265 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for michu 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-18 04:35:44,893 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for scientist
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-18 05:41:40,909 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for scientist
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 05:41:40,913 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for scientist
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 08:53:21,120 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 08:53:21,160 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 09:33:59,470 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for veo(isimpmolly)
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 10:01:55,322 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alpine
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-18 11:49:00,996 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Trader Pow
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 12:07:05,946 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Farokh.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 12:07:05,969 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for shamdoo.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 12:41:39,866 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Pranksy
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 13:18:39,138 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Trader Pow
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 13:18:39,141 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Trader Pow
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 15:28:34,781 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 15:38:29,704 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoFarmer
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 15:38:29,848 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 16:08:33,394 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for veo(isimpmolly)
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 16:41:15,707 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for 3AC 2nd Wallet
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-18 20:05:18,379 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-18 20:05:36,549 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Pepe
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 00:20:59,740 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 00:20:59,756 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 03:51:06,123 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 05:17:14,190 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 05:17:14,238 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Duke
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 06:52:12,427 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alex Becker
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 08:49:33,692 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 10:03:45,046 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for scientist
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 14:15:28,753 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Silly Punts
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 14:15:28,757 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Silly Punts
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 14:32:00,968 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for shamdoo.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 14:32:04,092 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Farokh.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 14:32:23,074 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for FaZe Banks
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 14:32:26,182 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoVault
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 16:16:23,760 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 16:16:46,917 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 17:01:47,342 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoFarmer
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 18:12:32,124 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for FaZe Banks
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 18:12:33,522 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoVault
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 18:15:54,700 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for michu 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-19 18:52:47,887 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for punk4156
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-19 20:06:22,630 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Tristan
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 72, in get_erc721_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-19 21:58:24,328 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 113, in get_erc20_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-20 01:08:28,114 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Beanie
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 01:08:28,304 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alex Becker
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 01:21:54,691 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 02:21:44,484 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for FaZe Banks
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 02:26:20,964 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Tristan
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 02:26:21,036 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Unihaxor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 02:50:56,817 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Theo
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 02:50:56,877 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 03:14:44,405 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 03:14:51,856 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for juds sats
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 03:15:06,671 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for spider 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 03:15:24,632 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 05:22:05,489 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Tristan
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 06:30:51,982 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Unihaxor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 07:08:40,686 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 113, in get_erc20_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-20 10:58:43,491 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alex Becker
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 15:42:17,378 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 15:42:18,623 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 16:14:20,541 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 16:14:36,283 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Theo
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 16:24:21,144 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for seedphrase
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 16:24:21,150 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 18:07:22,018 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 18:07:22,606 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 18:07:44,420 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Pepe
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 18:07:44,795 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Pepe
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 19:36:49,374 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for hunterorrell
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-20 23:00:10,881 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 23:00:25,543 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Gennady
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-20 23:00:32,903 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for michu 2
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-21 00:09:35,334 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 00:09:35,380 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Azima
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 00:11:25,770 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 00:38:31,915 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 00:38:31,987 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 01:41:51,166 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Unihaxor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 113, in get_erc20_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-21 02:45:46,179 :: ERROR :: [erc721_thread | EmailNotification.py | 130] :: Email send error! for email id etherscanmonitorbot4.0@gmail.com
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EmailNotification.py", line 123, in send_email
+    s.sendmail(from_add,
+  File "/usr/lib/python3.10/smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.10/smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). p4sm4047322pfw.214 - gsmtp')
+2022-01-21 02:52:56,747 :: ERROR :: [erc20_thread | EmailNotification.py | 130] :: Email send error! for email id etherscanmonitorbot4.0@gmail.com
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EmailNotification.py", line 123, in send_email
+    s.sendmail(from_add,
+  File "/usr/lib/python3.10/smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.10/smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). h13sm5171468pfv.16 - gsmtp')
+2022-01-21 02:53:03,849 :: ERROR :: [erc20_thread | EmailNotification.py | 130] :: Email send error! for email id etherscanmonitorbot4.0@gmail.com
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EmailNotification.py", line 123, in send_email
+    s.sendmail(from_add,
+  File "/usr/lib/python3.10/smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.10/smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). o4sm550217pgs.3 - gsmtp')
+2022-01-21 02:56:35,576 :: ERROR :: [erc721_thread | EmailNotification.py | 130] :: Email send error! for email id etherscanmonitorbot4.0@gmail.com
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EmailNotification.py", line 123, in send_email
+    s.sendmail(from_add,
+  File "/usr/lib/python3.10/smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.10/smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). m15sm3497609pgs.32 - gsmtp')
+2022-01-21 02:56:42,357 :: ERROR :: [erc721_thread | EmailNotification.py | 130] :: Email send error! for email id etherscanmonitorbot4.0@gmail.com
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EmailNotification.py", line 123, in send_email
+    s.sendmail(from_add,
+  File "/usr/lib/python3.10/smtplib.py", line 902, in sendmail
+    (code, resp) = self.data(msg)
+  File "/usr/lib/python3.10/smtplib.py", line 571, in data
+    raise SMTPDataError(code, repl)
+smtplib.SMTPDataError: (421, b'4.3.0 Temporary System Problem.  Try again later (10). r3sm3212076pgk.67 - gsmtp')
+2022-01-21 08:02:01,275 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for gmoney.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 08:02:01,279 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for gmoney.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 12:03:47,311 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for KeyboardMonkey3
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-21 14:41:40,095 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for iamDCinvestor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 15:13:04,872 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Theo
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 15:13:05,026 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for fvckrender.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 15:32:45,546 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Viper
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 16:41:30,058 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for shaul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 16:41:46,416 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for shaul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 17:26:32,064 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Farokh.eth
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 17:26:32,111 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for hunterorrell
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 18:16:37,755 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Theo
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 18:24:17,914 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-21 19:26:14,276 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for tropoVault
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 19:35:36,416 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Unihaxor
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 22:18:43,560 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for 3AC
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1040, in _validate_conn
+    conn.connect()
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/lib/python3.10/ssl.py", line 512, in wrap_socket
+    return self.sslsocket_class._create(
+  File "/usr/lib/python3.10/ssl.py", line 1070, in _create
+    self.do_handshake()
+  File "/usr/lib/python3.10/ssl.py", line 1341, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 113, in get_erc20_data
+    r = session.get(url)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 542, in get
+    return self.request('GET', url, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/etherscan/etherScanMonitor/venv/lib/python3.10/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+2022-01-21 22:35:27,732 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for kuji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-21 22:35:46,615 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Kimji
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: The service is unavailable.
+2022-01-22 02:05:28,709 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for shaul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-22 02:05:41,900 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for 3AC
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-22 02:05:51,203 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for juds sats
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-22 03:05:25,464 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Alex Becker
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-22 03:05:47,715 :: ERROR :: [erc20_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for Logan Paul
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+2022-01-22 03:05:48,113 :: ERROR :: [erc721_thread | MonitorEngine.py | 59] :: Exception while monitoring transaction for 3AC 2nd Wallet
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/MonitorEngine.py", line 34, in monitor
+    new_transactions_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
