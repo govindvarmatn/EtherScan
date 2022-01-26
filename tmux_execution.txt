@@ -8,6 +8,13 @@ tmux new -s FTMScan
 tmux new -s ARBIScan
 tmux new -s PolygonScan
 tmux new -s SnowTraceScan
+tmux new -s BSCScan
+tmux new -s MOVRScan
+tmux new -s OptimisticEthereumScan
+
+#acivate env:
+source venv/bin/activate
+
 
 ## go to specific sessions:
 tmux a -t EtherScan

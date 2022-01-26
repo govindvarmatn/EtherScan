@@ -1,0 +1,1690 @@
+2022-01-26 16:13:35,949 :: ERROR :: [erc20_thread | EtherScanApp.py | 231] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 227, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=80325b6cbc0ce2fbd15ff584c51e1a56bcc7f670-1643213615-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="0408d95be8508c9d1f9c1e23a5b87e60f89e8565-1643213615-0-AdGZOs9urJ8I7LkTGKHO6RDLxznEYSY-iY9qBilcyYWfNwdzo4vd-Tw9OB-XSNpGvvRpElqGdCWkvmY8PklXoKIteqGsfhLvQkfAig-3YlAEJbyJsOxP2mBFpIICvOpdUca2xQ1pzSoKj2jQVbumVqJapXBlx6WAa0MpqcKHkCNY88rxgt89blFUrZ0uIUu2_In-c5FBOsnotK_PPfzIWCIiLD5auKvQoM0tdswhL8RfJ3AHhP4UF2eT-F-3SY-yJqwZUbjh9_TN5RbeycCrlnOTE-vTiEnezQ_jMg4pfodG4PzaSa_Y7gLN4vQ7C9YcoMSyFqd69sjxwzKG6vDS8NdpLIx9GQ_qZozXP-48SU66obqf_5S5mNhSUWXb_C88LN2bWyf7quOWrAgv9Xglxpo5vxjJeAsb0HgmwnCJfOkw5HqphIKRdKPD5VakoCwixNnh85AFZlYqVSOPxUlb4xmbTNtu-fZB3Fo6hcCYhfDHNxBT915nlDEYlWiYgvOh-aoCkBXJpJ8D5Wmrby-0I7dnDE4slmc0-WGos9R2XRh6E9zodThAg-QxG09K3OeCO2dYubaIAkdTv8YyGCKXKjoOUMkLfrEdPmpiTtPuhvkRNWrPKibQtpMOwUz0h6Ug7mXPGlfg1BLPhICr_rxLW9276HV-qWynE4aUZnk-fb4D12GkT5eEKhNTpxgmjwOxWX0RwrO1b6iY7QMhNd-smIY0faDIUdVN0j4mwmlFyub4yVrixEqaIx2FtvEzuSWYPxw806-cUz9LUDgfgLCEJldL5GkgnA_8ihHmPLqtFjpdiFYwDXWM0wrkZ12GTgdOU2A7dSfhLTC1jYZC04d9VNoOFNfApjQI4GhaMI0zaMsx0KYuB06C2dZ3kzi1EIKra_evveDo6J9TO1lDSMiKYvZWsanM807zXTRD1kFctkkeqjLwXee6FK3NL41jch2Yd9FPVwhGHCk-Dzzuf4-n8NO3EjIPpMt4HGqumIOKQb9TVsQMlSTtb-WaaKfNToRw4HX2ddj5teZoNIStSEnVtdMgXMdohEpYmZIgUaXoh98JDJcABXr1mz65RzgP8oNVl2-t76Imj117pY2iBKIBmzHkaCT_ndojddVWRWb7cDUySF7lM70HuLoymdWSZUSZjIRrG52za84H1vXcr0KssaUcKq2gAuHlIFkFnONYevGDxYYrKO9trnmmV-ubEo6ThXtFM9a5Fha-6aD-3CuSNkKumX_coG-dRH3vwaI6XxZJ" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b078b9dbe8569" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b078b9dbe8569')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b078b9dbe8569</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:13:40,936 :: ERROR :: [erc721_thread | EtherScanApp.py | 231] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 227, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokennfttx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=877e192c4f69b41fbe9b21f384b60085b8875550-1643213620-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="059d36cdf2aba63321486d47e6f1dc18379ba4ae-1643213620-0-AR1pzoYV9M8Yz0Jnq6qb0hGa6TY4Hp9ntxUw7p9eAviKl7A-5fNQhJWkxiPR2OvP9WJau3ye1UcCvkYyhsbt3QPPfhBt7-2HyHQ1XTEtr5hpp_4ucO_oq0oAa_z3TP-nQN7mkyz-5cRF8cInQUWdJLcoMYmFsutU6TVV_d1eLewFTNrfneNlAUQukKuVZ_T8t2jZhtoaKqDqeLqpXPqfQhO3mL7oCdtPMPP_gVDwpiFfLGNLy9m-iwLV0M1KYkNObEiZz42lHFReOgziBNvGGtVYNFTeFuzK9Dm3CVDN9E8Va16wpSB7Epo00EnJjPWPcaJJ2OEADeMoEMgPoYVVUINepGntD-JNIJQO1uZZ17SsVODISDlRXpCrIPNWXDDwtnOBKqQcTlrR3j3u1D2MBjo83zqPunyo9iptmb17mzi3EzX62Lyt76gTyUl18Yfyxc2r_Otv6QW8Yda4yRnDqYJtQN3cOt6yvIFGg63OGVx_22el59iay71AZchM3lJb4T4r9YJhVD--hWs_kSx5RWP8ZEg7_s2IeCCWY_OO2ZBlkqwwxpip8dCNPdDW2gxKK3GpSsccUR9B39QCf9dGJNk7CeeDw_WewFbAXpK7r5mxa5n78gJjjg5SGgtILYAL9vU3vlqp9cWHIsAhQkwflil8vCHvsXhaoo9hU5wS_Ysr4BP-dNFhHmks-5ozJAf7zgIKVeztQOYexeUIZ9E2Jn3XjLQd3Nrrn3QD8vrLS_xJxFmYHWAEjE8TrgNGfl4YQ48q8qe1uB1KvBQGFnm1W2pVMw7Ql4B1sATd3cvJG6-v4uAFqwBhgpfs4dBJ7gKJE-36AN3kWWSG3ZRgdzHPa-FdmW3Fr4GxOeG2eVRz50I2gtT0CBjElmTD450GVyW8ys8yeYnRIcz-idPlf2dyPCKQCUOFVT_aX-9U_0xekUWxjo7Qn5aYTqWoh33WlXecqUeP0WW9trGQzNjnAxcXkk0wo2IDCucpK6xMoHFgadZLgqMLKImtAhZOshjklpQaAgoDsNUsYUcYW0fab1dm8t95Dq-9gIX2IqXrpy4NkgKVcFjveXLrNbI4r7UlGNEQcPKMKKkiiu6F04WMNRISEovZxmNWnMCjtzqlAv94Pbg-Ll1VDPJrnJ4X7hqueUdL1I9kPqtP0F3YOslr1QjmBWK-6ShdnL8uRaaKVPSLZqNNgbkqa9iXyXXCa7RW7K4rlSAEUWBTofviimC3IOzp0_LoLVOkXF0LYfdZzRM6fi56DtmecJECzG2ixY3TMLtzzg" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b07aaabb96ed0" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b07aaabb96ed0')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b07aaabb96ed0</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:13:40,987 :: ERROR :: [erc20_thread | EtherScanApp.py | 231] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 227, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x814A19b98A84EC9F72b7609A24Cc6cD35a2d0B9e&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=877e192c4f69b41fbe9b21f384b60085b8875550-1643213620-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="0f82267c33c077639a800d629ea94db99d01a363-1643213620-0-AXUncJgeEKKoLmzve0s1uc87hFB6vLjyZFTS6CgTDYWh-OHKuqFoy6Xjjkv2d63GYvkBsxay8aDHEogA4ejoxcGLlBu36rmZJwylsXx3NeD_SKIGtVuvsDtT4TXwYkLXOMjgFWHG3F9flCyClFGatNdaETezBnGRvXGQ4U-Z43iCrKBpwuzL0yrIaTynZ5n4Ll4E1TpSOBrYaWXMwE6lnxIr19nauh67Ga5pYJaJZhP-f7FiHTHjFGTfDnOdV6oq42dbWmvSSUcp4nCIqUE9YPEuNwDUzZEO4zr5DexdGMCwnexTNF-kMk9QBbpqOJ0uL3iGhTztKOmGHK2oMOoTsHswVOhlLy8zt7llwqV02ngIQUSMV-f0tsEiGuX9d3NXyxgTLcQLn_XFd6lnRxyU26MWbO8xo9JD8aOrxw6FZp6xEpudW_X3mQRbna_KgP3tZgAG2E4aVhRO3s3OilQJBN6iohA6-Kv_DA4tpXeU33XAeGHvRYAPEdgrWU3mvXONKtNSnSbUDWiUvbgNeOLSvAoM8uHOZ5ASK86S9X0mmJqesghkCBS4yxWjCk4Xc66GlmPwOkCd7wjsoIgzx-9srz7Ny23iW6wS276QKqY7mcDBT9PR2apNi1Fw6umR2Bz232NKnnb6fzPltWOow4Mmkd6eKuIU5Fisz9CZUWv4mJEpngaWGBc30KApQbJbcOhRx_qzP31n2Z3ByJdYif_15eFrp01DbjacfVW9aQfu2zYFwcp-MkM_JfO3QiAoPja_e1XaTlo09F1hO0NydK1_wJtqrCD6tSxSFpgCEY6rlmFxSyJHASyVWiLn4L4kH-2OrbXa_dla3ARNxtva_yTSCe7O6Bn906SNvWLNsokZQV5VMsrWOvRTbIAjelj9JheAavHSbYqnYRrjXZFwZfKU_CcgcFgzzmaaq6-shcIqOziouLXOSjIFcKx0JtMg9srdfJsyfJA_qb7dD_FUCF4OGIFw-Sd9GMhe1JXiOhJzqYfxBZ0TcE3CXey1HQ9k-52BNLx7xK8RzEyu2r1uk-1YBP5q1gUecilXGr4W4r36BLTnh6MxR9p-gRTeQGsP1r4Awbcuvy_LYlV8KcCh-9kAmWdrd4ydTdG7WbkIuuuepJUGKHeNktcc3u0qEzICf7LWn9N9yFNU3qud0AumP87Evw7vVz7EwiDAYN_KYroYsmSK54FXIrIOhdUgDR7ZPRcWYGF1ZyCT-Gos7wW3-PsQchDxKNXcb4eIRTN8r6cOvRPr" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b07ab18592dfe" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b07ab18592dfe')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b07ab18592dfe</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:13:45,972 :: ERROR :: [erc721_thread | EtherScanApp.py | 231] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 227, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 201, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokennfttx&amp;address=0x814A19b98A84EC9F72b7609A24Cc6cD35a2d0B9e&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=1085419910ad7bac476515ce4840383ba0066eb1-1643213625-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="be83e4d1fb1d3c81bd13c00e56ed5ca03db58770-1643213625-0-AfzPgWa5Wu-Jp-9zTrd0X9ezE4zHL7vu2IbswJJyLGwx-Lg_eHaDvztZ9nYSo_GhX6HtPaZZ3ghkCIciqhoTpbR7cNKznrftcD9m3GGpqHVTSVchg_6ZB9R8DxXLS5PPaPBXrY0aRv43xQ-ZOsZDKo_3kSVejaweH_5w9w2JQxj-RGXsRtuUxjsMmGyE_o0yWpZW9bMQ9bgatPZXgHi98Bls2mFicu5gjeGt_VpAjH7c99NYJ1_A5T-Eao66uf2b-31VtJIACHn7XUvH6VCzAer8MDD10Sw0i_pb3SAhMLJct-movqCKcdyl5XHgBV7qbz7VznF4UHM8--Vvg9E8isXdrWRvziZnjqdAlwTmok1iPV5sz9KTXrQ50StgBD3ZQg9I84pYmIf56050ONggc2UeCi7dV3qUY0bMxITUW2B7I17Cjgh2I5SEhNKuyKFPBLEqevSk2vUA8D3iaWzeSNWwVex40gOV1hj0yY_3t8PUZ1m2YTGYp_mljPVRYkCx4dS-WRzKZPEPdVl41KZOztkHGnKCOwTrGY41DmhCvbKfkZf_KiKEtyf8-vz2xkSef17wwmauegUWT2UaegRGhjhKJpR0oVt6jASFrnnNy5HHKbHfW2M4gCcn2ApWnN6MWyIsU4kWNuPunrb4ryLMPVgdKnkVSxXc0PNYmDVkhLM37CzIJ3PlG2r8edrkCTfqJGZQB-tJU2SocYUyLihgQF1OV46m-SgIRQS6vboDS2Yt3HjHjCy3YqKzoLVGnao7ulmcoTbNB1lNrfcIrEG2EPaYd2t6R0kpj-gulIz6Z_vDH2xkQFAWyy0uMjn1dR4S4ouuLCj1JxiqTdaDzQW4EstIFN0bc9KzhYU78Qud-2qL_iDAVaITBM2atToUGqE1tYlpi7MkNLfpgAps06S6JvObW0D64drCN1KibxlxZsp-nL4DrQWAIpkzHwzRHY9AFykIp88SaY8V-MvtMetk3IYW9GsLHRzatqoFhJCScESO3MWZ-9wlwnpBCUXhDX_dWoPVUtm4a8F3PE6PEfdhEWXdNpma3DVKyj4jD3c-gGX2o3c4yfF8PLPZ318kUDegjE3zCOWMtz9s5WqGlPmNb5nMHCIpr1eM1fIjEU9z6xBOd7cPqRNk111A8z3lLIv9kfYXhcuJ3ayNizyrNdQU1X2tL-5dn5sCd6ytC1xlB-zlCfmqpiUWWt2ukj1rLelJAH1riy4nO6TP3OIoRj9iKA5NG6UI4ZaiZ4MrMnTQxWQQOJ1zDEBuI6w89aN4oZU6OA" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b07ca3ce92dfd" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b07ca3ce92dfd')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b07ca3ce92dfd</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:13:46,029 :: ERROR :: [erc20_thread | EtherScanApp.py | 231] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 227, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 199, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 115, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x29Bf6652e795C360f7605be0FcD8b8e4F29a52d4&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=20ad81a3b630ba03f71db7c413ff32c26e7c011a-1643213626-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="532671a81cad7bfafbaafeeaac8d2f646e2cdf92-1643213626-0-AZm4WKh7Xv-vicLcd-6OQMv4Vv4k2JC3cUsYIxdgvCePmXHyAxkkrzjZMyZh5syOFfPW2HXnbY6iMvW1cYyvQ2SNQ-wGPeTSQOUXhMzkmZq5mcRCF1Ay0IDykFLaQ4IIJcPzJxCCW5nWsah4rI4zCK0r28T1rFwv7aBdB4a2QifcGlull1vdMF2-uscGfWNck1bdpMvBiS9psP4DXbQjnso_-Gi3B-mMSm2bhuXjrQfs_KF8etUrUmF1eXbbyKYIZ9XVQkACR4EmIhh9CVXqIWK1jKg6DTADB1iApnz4qzUkujzwBFlkUUDYLLhP9q9RdQ0okunvlmuMkCLSh6CXkB4o-shB8xDpoQmiVoIspf15aGR0Hx4XO6Q8D-E3Et0lM99inv-CKj_h-Y4bYJwBxLPcB_crCLMXGy2jP5LwLTEvgJmqFJLY23dametQ3mPfRW5VSnQYQL5fw8IRMK89IEyTMAckiHrXI0_mATvaZn1iQPutpQDXQVLFjuyVWivrdzPCUTNh_ANW9oIikkzkqSZFyqbJgobWe8lpeV5kfPr161iv5o1LKE0BL-s7l4dyvKr7znmdfSJEPH2k5O-iv1vKvM5d8AnqtWNIs3UEYSNEwLcm2zynQNyXWiQgMYa3x4c9Q7gP-Y5l1gJQ8SDnI340fqejWDXi3ckqi0__ZVMHw90D_mIDPKzKjpqFiE7Wyf-dEtq1JSPd3UjBTz1YXB5FEqiRYuxmWkiv-h-_-o94MoI-mxH8TSXadRp4ASgtddbjtfsOpBaAk9-9gI14Bi7GPsS78ZEvWZKnjbneRT9U4Kp51U8NvBxUEd5E-wd3DGD2mW3Mm1orDYzAWHHtCHhvV4jz8vO-pAEacWlFq-StkFpdDLPIi0zQ-ZJgTm8_KM8GJ7shu61O0ARQOxQrcOoW8XyVfxbJO9HiNVoXwOdiIWox2Ak49KHC3nSj8e1SaM-2-RmteoSEQXyyLJKePqMdkKtqw_HnKG87bWzCvGTKENHc0KTQmGss1tZb07o027QBC3LWn3ce-5CID99DyggzLvPV9lUomBd5Adc1wApRBNSkiFvrU0Pv5YunuN6Wwg-rE3DlUbSMOV7wUB619KZK2zqA5E9Um2WQGdXmHZzKPgKIDszsm49SKbwp1Dk5Nt3B4tsjmlF8LQrszhuKRUO1v70rnlLVZQGReEePno3y4MwcHiJkoehne2rqo2MaHr7v-YPQFu008a13uNwz74qTHmWupxE58V-wUXeuqCWB" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b07ca8cd48563" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b07ca8cd48563')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b07ca8cd48563</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:15:51,040 :: ERROR :: [erc20_thread | EtherScanApp.py | 232] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 228, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 200, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 116, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=d79da029cfe735767350e297f9b114ab36909390-1643213751-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="fb772d18dd2c313d2c78fcc30f9044279391b866-1643213751-0-ATwysVHV_fONk-1za2zDb-ReCPEsi4BB4HZ1KA_e8gMN6zNCa6OQVEIU1cviVA2Kl6v10qX9p5NfkVSWbKIdCpcbs5Z_v41a7E7znnFf4cDTs-oD_A9ZBgeK4PGqw4gTTyGuhSomI7VH-oP5lMrC78dTJIdoGDvI5TbpC0n3w6J9NTI_npMA_dXBmFKX7i3F3ellAZfL03gYkkFVj-ik4xpYjIc3p9kZRHdr4mCTiyGCLUaADLjMRs5PNhDOCfL0487ms1D09U03dXenYS2aOffRqPJSkLJA3v1pWKqNlSOrVgI04uXEsgfCwb8UAM1XcsJAZW84eATasB_QxFKsyJr2zFVO9sdtv_TYr_PIDCuZ9Vb7LoEWQDVe8H-hFA0soy4tWvS-GrlkOoC-Rh3PJb9-rYOCXdwbfHoXt8YxtrRL6uu1ITKTNtJOi7grA2iLBlhWKovEMJTuOezTR-AvKy7UE0_9d0Rt84lrKZ8Q-lbGimi3OhyWKbWz_VocWJz6qXp84exBScup9-6tP8_WI3272k2K_CrXvMNsajSF-InUlr2XM6doa6_lNqFXW8Orwqb8MOzP-RL04txEhPKZt2QG79ZSC7ei5M23ZdqB5AyeJxTgzTDBPaGEZdpXG4mjFqgAOEIRAd9Kgb4Y202HflJlaIzzMrH98EHaAiSdHBhejYPHpNncwlxZXgNXaH-gOqaOd2XrEPTDU5qX_cDqpqGpG4aK4GkvjJi2WzBS6AhmG-JgL2h8EhuXDClfVrbfCRJQS7CsfcXgEAkgGPDOy3TuHCWEIvHG0BJUvNo1U8piZYzUVZ8LTqcimKD4C0owR8K5XeLUmdfD3iXEWYHR04-c2937LbDaFhZrPys1azTVGJqNw_I2djN-SwGk8hTfRLz5l_La9b3r0P0nGpLRIkJkMSiy40q0XYjsZYnJZzSXTKuqqfDE_wcCEsAafKMYLJDiyq3w33nxQoEACo_GQJtmmaUGyWIft0OMXgOJq9aUmwBlcuOyWUPs9aSlSE32D0RUweYuLJvAHdbrAvFZGq_x4QgC514AGN89YFiQMKpZv3NlKyGvOlmRn6gpFpRJyjSYll-jc1LT2mSdGzBw4dRT0v5D5DoT9XIkkweIoqbpYA8u_w-Lhx7xicjshUOlHwXx77e1tnBuXWg7d6D_ILKaI1o-SCv7BV8omA5LQFPTfjm0HgfsLoduhWSLN1rmIUx9yvyiPdTMFfnIIgIZF-U28xf9ydQDX4Gx_g6QnxkG" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b0ad7df7231b1" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b0ad7df7231b1')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b0ad7df7231b1</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:15:55,793 :: ERROR :: [erc721_thread | EtherScanApp.py | 232] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 228, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 202, in fetch_etherscan_data
+    data_dict = self.get_erc721_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 74, in get_erc721_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokennfttx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=8ea257bf5c6748b9fb28d0eebfa99ab031a456a9-1643213755-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="02289893549d3874136a9822ad2f796185738354-1643213755-0-AQ1g-afzq3NKL5K1conLqyKLo0jIWANqbH7mKUlPA9V7SdsSPyFtFhkEHQVo9HMwYpBW27RRLiF83xCWfqqiPMdKdhDen-5OCXaSxOCTpsX0L_E0wmN1qhOeTRdFPoaD2oIOTG3gVpb7l0tXb4b8_OD1PrwO2n-FCxWH_Tuzj8UvcSsxJ4N154xAzEktOfn7uOZIXKV3-p4fFBJhec2jKLxIgHF-WRYLga3pj1g-qEjXI47r6S8QE9h1iqtfTqtnJboe3Uk-KEQXJxug7Q3TvrxPnPGY3iVI2ZRrWKQX2hceWK8XIGUrYppsMSfhQosvqHM4Xd7bS65B-ZWqZl3chH4fXfqmQQ87kGZXgRY2YOUApHZ-iJbpKVu3RMbVvIWi6-3LnIUMHOrSXyI2H2W4ezeXKx7EVRxXKhpJ9O3Dj-MwFrl6z87GuWJelefdgk9lbsbXbN0AYHdEfeVJoSKF5lGMwLCGZ2rWeC3d53gUk7zlL8x4WRF6LTVJRuMC0Hza0BR45P-TsWhy_-Nslm4JQ9FY1_slSqnYP_xk10uag3DDIkk62hyYxzq_9V7P4XbyW5a_qaIvBbImijSpGD0TjK5LYaeBW7X-99MTIOEF3LkjYCghqKlyItl9lPHogej7Kw9uYgNGehvSlokofXzzUgVEICfjlLvBL1EsX3AnjiktIJh-q-jlxv-QhW8XIiKrz_nOeT3IQiDgKXKpd9cqs9JcdY6xTi61OEBmrGCeH2-DeYwDDb8Onadybe2T_3gLXISiYJwAMs2KMRgbClqmHqmye3FGhDgkMM_5j02HjFhZy1zvlQnBJtNayJVMgMUHlNUA7RXkqZA5LaiJSvZCA5DZZUcttDe3x1moIM4tFzONz688N0WIaeJ0UAE5yqaMhiszmYXsJwBDHoasLjPMB3P7RuhViK34S3MMcIdeAxkNvVDYY-kZYPGBLv9qE-NZ7WOVStGGkDZGqc9Lrh2Iej4Riq_roOlTBnuZO4_yAN5xeLmq-5-6gVHweS-aKXqm4PoFtld3lArqKcTHDKZqZTXlJDmAZ6NCgWyTdQNFQyFaQ8an5lWu0QYDSE3vwF6hl29qNjHmCsYKy53SiqOFCIGAiD24RT8RneidFFH0-dF1wrjyTM6cjAbOSEFA-dKJLRBaGJdGsszqzZjU823hoDYmwEQWjwsAmzYj5jgZU24wezbwx8lkVhiS-jq5M0rLPN8fsyn_cJJBhaZZXNGBIgEfZRp2tuRyLcoLXySWVCmmprwOyaC84mr86NcOQDibKA" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b0af59c4a2e16" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b0af59c4a2e16')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b0af59c4a2e16</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:15:56,079 :: ERROR :: [erc20_thread | EtherScanApp.py | 232] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 228, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 200, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 116, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x814A19b98A84EC9F72b7609A24Cc6cD35a2d0B9e&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=443e25384369a60b5a30fa27111c963b236f078e-1643213756-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="bacf6943879d617de804615bd3604ee06189022b-1643213756-0-AfFR14OmD7cdktvlMJbnjueOvCMXPo_dPuZGbc47BBlMutBgtzy2OnHFQDRVOJ4eawc0lKQWIQ5iW8Jg5OCWiOzErADyGrKrsa7wy9N7evnBI4NFuTpJuxu9aeozan2ytv_JwS5764cgAGtot4Ct0cVsUKCCYznX0FJqP2pY_viEK_GtEJA77kiMS5ujI3pj1blx_QeRqGKPGnpScMyHfC41bcu3yKCn6zHC-DwjXq2MQMs6Im5eNZ6kWcLm_dO6vAu_fZvld7tVE3hwm4N_yMxahzlTSoqAttKYMJnBI9FqEQV9k1hU2qq0WI3AOilUYI587lvlU6-gLUHkjgkzKJ0TJJpzkPyAygcBSV8D72x5fbiZpI9cMTKuBVqxPPLeiQ1LHzHvEZoLIVrh-DynRLpViHw9s956-Y1u-mcRIC8wRd0CFzZ2T14sAVRSRCpbWSM4Y-SrkkTixtVAEzzZrUwSnSrYF5i_rBPWXgvYUUUr-7xs6Pt7zveiv4a6d5LfNlApIm7YczJWXp4CQjiJXBesoXo1mFsUhSoCQvCbjnuc_OK5uSJvDCn62GvGroLNxzBek80z7PiRnGbaX8E0osKImRM9XwWKkPT6ZFTk9wUIFcSSY6OmTnmN7IJIJUFKdAm9Boay9yrhZXfFEr9zaf9K075BKnyVu1h4p2WUdo7g3yhBD1FUrkWMBvWA5BYvsqovl1Wn6nYC_27KPZypgCPh6U0HFHJZZclRKWYqpPCaU1VYd4xbIitPv4Rk1aW36LPQigPHnCY6kPHwbVzTtwlh73BD2qfDYVyXMXdrQefBsDH3RqcLFPywSPiYCPh7fv-vI5a52b9XP2zp5FFN_xfSbcN88jXoaHbfthrPAD4Rep9enFxc3sFTmBj1l-DmaMaWcmMXGQrc6cP3iAPLxNCGMZxrix5TUEBiAbJRngDQVBzhjJcaOenPVCE-QUocUCp-ClWL1xx_4l6oUBvhbw9FiKpUio0WiudCGAOWp_igpUtP7ybgvxzwQfZyH8_1yDNmuAoiOMY672Kiu6esjiiZpJxCchF-JJ2qJ9jLIXh8UEFxOomzP0MsUuDs4_i-Nud7CvYMuigceM7K66PagMVsOoB87y_LbwoWM88R1iAAqYcXcfvrcyYQSh5EmiuDFfNv4hOfWO3ZOLC2z5jzVpy5LsFI70bPO23_RpEetABbAUMDLO-hEg9WzArE9IXAjP89Fr1Zvx2aeRm6NqkiTXS5ijhEXy2RZ3A2DtaC6TzR" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b0af76fdc31dc" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b0af76fdc31dc')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b0af76fdc31dc</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:16:12,777 :: ERROR :: [erc20_thread | EtherScanApp.py | 232] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 228, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 200, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 116, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=2b2272cb9a1fed631a3c6fad543420342f1268f6-1643213772-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="1260903ffb3b95b6d5c96baa99e3d0266c3b5c5a-1643213772-0-AWwL-GQlnOBsRpt215azlv--7S6jKvS3fWCDREYWcQz1d0aFLfQ6xcfjtdbUmzpK7EoIi9Kd1cLwvKvkqAi8Fi2k6QpGtQeWRekE99rChLKzgWkGI7nLm7Q8VT5Km1YLnVXtf0UFnN9_wLKMfcZ5hQ1yoUrhA1zdHwIJQLe2foGzCLYWGb1DFA5SaP1QvAOYMPrtA7sq0rbvlfRYjpDzE3vZXH6IcZ3EmiYlsHwAFrWYcLS1L06sY37ekU1qKYzF1NuxkK6bPObu2c3TcAhY3rJUVMaNJhLu2E-_MMB7z-oLjef4YHs3m0Pz5vMScIx2s1S-ADAkOvL-zYP1xdjoSRfQR2xP1RskaQeFeOQqtiMRpXLSVVkNCk3lezybpree_u6MyS_v1luxpzkBT-bGkKKTAJdkPrU6bpGKadsOWHqwIW70fy3Q4rEzVewsqls5g3hQAYKk-jyq0_6MZYSFpg88cAYlruV5nxcHrUDDk_-mbAFtCmt4VroNhKijkORbOlsgie2P9CdqliVVDqRsflojmELVXhdb8lrfw4rw1kObMVFJ8vU1TFLU4JeFADkB0vCiNymk9Ujkq1-BX8nZeyK8A_8yKqGnAX3Og75uguEHscxiZYHE9aUVJ0mj6lDoheiIeKD3ymHqwRXmH0n6BHi_uJQ5xyxGh0BfGU7qBCSts52i6_uhT_2ap2tjFM7WJt0kENUIu_jM4DuHi_j8lnY41kBx6W2wXn4D8jxkwvK2iSMkfJSTo3FsAg120xqymglSoZy3Q9DXkgkzvhMsQG0o5RMGA_coAdiPxEGap5JUcXQ2_Nf1MHOb4iSxAhgn-rKvwAdpbLeTsAABKVRXISXHJd_Bdxfa-kpas9a9Ea64CA2yESNV4qm-OHCdLlDoAW-QlsYLYhb4DI2EyhjHSlYQ7jOSrKiRwqfTWX6h-O02LVzsEczNEt-r8Kh9TaYO1O62rhKhgGNiv-g9ZCjpbdsPx3m0ZBio7qa-X2im6Szkq9yRtx-s8Nguk9TwaaaFzJfsDEbclDkMpetHh-BCGuYBiIspLz2D7U4QY8HuI2sUXnqlHFIyVsjgrswE_n72O01VrGdRy-mMqJVvwvtBVQe3tDhpZnwqYwzmQMR6OsiIdzLijNQzKbX38AvmOQ74SgMwuzNkZlV-fnptwzhn_MS8OgJpQS0m2Uc_TRPjzicnSJxp-Zw0Z25-sNTz7FJSNpd1VB2lfxdeC-XNHu5quOAgqnKuME4Fbn33LEEvYcyv" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b0b5fc81631ff" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b0b5fc81631ff')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b0b5fc81631ff</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
+2022-01-26 16:17:40,023 :: ERROR :: [erc20_thread | EtherScanApp.py | 232] :: error while saving initial history to mongoDB
+Traceback (most recent call last):
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 228, in history_create
+    data_dict = self.fetch_etherscan_data(row, token_code)
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 200, in fetch_etherscan_data
+    data_dict = self.get_erc20_data(row['ADDRESS'], row['NAME'])
+  File "/home/etherscan/etherScanMonitor/lib/EtherScanApp.py", line 116, in get_erc20_data
+    raise ValueError(r.text)
+ValueError: <!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
+<head>
+
+<title>Attention Required! | Cloudflare</title>
+
+<meta name="captcha-bypass" id="captcha-bypass" />
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" id="cf_styles-css" href="/cdn-cgi/styles/cf.errors.css" type="text/css" media="screen,projection" />
+<!--[if lt IE 9]><link rel="stylesheet" id='cf_styles-ie-css' href="/cdn-cgi/styles/cf.errors.ie.css" type="text/css" media="screen,projection" /><![endif]-->
+<style type="text/css">body{margin:0;padding:0}</style>
+
+
+<!--[if gte IE 10]><!-->
+<script>
+  if (!navigator.cookieEnabled) {
+    window.addEventListener('DOMContentLoaded', function () {
+      var cookieEl = document.getElementById('cookie-alert');
+      cookieEl.style.display = 'block';
+    })
+  }
+</script>
+<!--<![endif]-->
+
+
+  
+
+<style type="text/css">
+  #cf-wrapper #spinner {width:69px; margin:  auto;}
+  #cf-wrapper #cf-please-wait{text-align:center}
+  .attribution {margin-top: 32px;}
+  .bubbles { background-color: #f58220; width:20px; height: 20px; margin:2px; border-radius:100%; display:inline-block; }
+  #cf-wrapper #challenge-form { padding-top:25px; padding-bottom:25px; }
+  #cf-hcaptcha-container { text-align:center;}
+  #cf-hcaptcha-container iframe { display: inline-block;}
+  @keyframes fader     { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-wrapper #cf-bubbles { width:69px; }
+  @-webkit-keyframes fader { 0% {opacity: 0.2;} 50% {opacity: 1.0;} 100% {opacity: 0.2;} }
+  #cf-bubbles > .bubbles { animation: fader 1.6s infinite;}
+  #cf-bubbles > .bubbles:nth-child(2) { animation-delay: .2s;}
+  #cf-bubbles > .bubbles:nth-child(3) { animation-delay: .4s;}
+</style>
+</head>
+<body>
+  <div id="cf-wrapper">
+    <div class="cf-alert cf-alert-error cf-cookie-error" id="cookie-alert" data-translate="enable_cookies">Please enable cookies.</div>
+    <div id="cf-error-details" class="cf-error-details-wrapper">
+      <div class="cf-wrapper cf-header cf-error-overview">
+      
+        <h1 data-translate="challenge_headline">One more step</h1>
+        <h2 class="cf-subheadline"><span data-translate="complete_sec_check">Please complete the security check to access</span> api-optimistic.etherscan.io</h2>
+      
+      </div>
+      
+      <div class="cf-section cf-highlight cf-captcha-container">
+        <div class="cf-wrapper">
+          <div class="cf-columns two">
+            <div class="cf-column">
+            
+              <div class="cf-highlight-inverse cf-form-stacked">
+                <form class="challenge-form interactive-form" id="challenge-form" action="/api?module=account&amp;action=tokentx&amp;address=0x6f3064d973C08Dd9c88D43080549F474E5827d71&amp;startblock=0&amp;endblock=9999999999999&amp;sort=desc&amp;apikey=1E7ZA3KPE1HJMJRHSK8N7BZ7D44ZP5PCJH&amp;offset=100&amp;__cf_chl_captcha_tk__=14d7f3f86b9ee3c5f87bcb74a87507ae1634967f-1643213860-0-kA" method="POST" enctype="application/x-www-form-urlencoded">
+  
+  <input type="hidden" name="md" value="078885528a1a0d42242ae32beb316044fe765a29-1643213860-0-AdPVtCSgHtNAaKEFFKRpm3x7JL7IFVczOT0FMrzQPVLz5WwcFyZktZbb3MSPQ2HkWojBiqhRGx3HX-RqxF6oprLSUQ0hB3mbnveDkQoP6u5VbSLHz242SLem8HWTweEg91ic9g1gKvpbVc2j1cr2ug1MhnolmFhKeM7nIZgZ20_LM2wD5nYtmr8jcoX-xoUs9VvT6k5sD9riJt256Y3U3t9R-Zj8LUfGXZiLUA6Ru2jgG60QqFQuisIOR0uN3RVWtmN4ccFgJm_b5SipNazy--qKJgWO2qLxId-Kq5Gli9__TrlH0FaINhUzfoO9yH60x5gcVjRqWmrl6JvKvzR5L0tHvvhMGltG76tMEUKOe_NoTz7xIKiLp6pIGovEVG8Drn2txJbC7qT9b54d1Tf1krdVWL5X6THRL1peiSjhpNRN24iYOjQzdYRtuN7xtVJ7Nj7bEjkqoBdBH_HEdpk_UiKdW7S-0RK1Y-_KgDiWNqn29790P72jVWLlYMbCLfPNBk8jh6_a319DrgjNkZEu-GjPuR1R-mhFvE3mmTN3mEZJPmucgUNICGUh7risYEmOPW8Dj5nDKosxyL1fK3K4LDt6NFlHDDoApZ6esGKa8MZmtuxMgBB1lcJpFcy9IbU_FViDK0ANxw7Bpl03379Jt_AwdIpnWnW9Z7vnkuU8yvsIebgcyJG-j8gwpCr0SJ-cG-tKUNgxCbFrrFizJRT3abiswqs-a_mOstcxv-Ue_sNfbmh3bpM8VnDYEX2t3d8kaqRPb7swsdVrGAHXAK9Xk5j7TMvM5SWNuWU45G3B-rku3HH9GKZmwQEcllLHuZZj2m2OoLYVnLaIRp9vXojrKMjgK-06OKejdxqpbxBWe7TjmCS0Sa6JRne191yR4x7lGrE19aPCiKyRB-cQEb--nvySG1AMEBzRIrQKljdyVy1clBvWAqJwYc8y0c-N5j41VewccwV8pLVJenCTHkJcAiFZpy5TX9Osx93R56uVcwEetJT9Qx8ELqzbdCeA8K8doEi0eVUKrZoKw7-tvVI1vXX42wCJDqQu7g0GRIjponyi29wcGJ4iHNh3Lh_Fgy5Co42ajTvgV1U9r3CCqlDj4EiIN0MO5eG3jGvqojAncpF8a75gEGeZGgY_8QK1N1wtgPuv58ZAKm4wPG3khf2jZ6T-Fcnjp280JwVkzVqifdZLsy8nmTdaOK5kJOH7tcYBJtH7yiEUkMx2r0_dWXImNNmcvsCQr8ZmYSGAQzqDgN_d" />
+  
+  <input type="hidden" name="cf_captcha_kind" value="h">
+  <input type="hidden" name="vc" value="">
+  
+  <script type="text/javascript" src="/cdn-cgi/scripts/hcaptcha.challenge.js" data-type="normal" data-ray="6d3b0d811bd8862d" async data-sitekey="03196e24-ce02-40fc-aa86-4d6130e1c97a"></script>
+  
+  <noscript id="cf-captcha-bookmark" class="cf-captcha-info">
+  <h1 data-translate="turn_on_js" style="color:#bd2426;">Please turn JavaScript on and reload the page.</h1>
+  </noscript>
+    <div id="no-cookie-warning" class="cookie-warning" data-translate="turn_on_cookies" style="display:none">
+      <p data-translate="turn_on_cookies" style="color:#bd2426;">Please enable Cookies and reload the page.</p>
+    </div>
+  <script type="text/javascript">
+  //<![CDATA[
+    var a = function() {try{return !!window.addEventListener} catch(e) {return !1} },
+      b = function(b, c) {a() ? document.addEventListener("DOMContentLoaded", b, c) : document.attachEvent("onreadystatechange", b)};
+      b(function(){
+        var cookiesEnabled=(navigator.cookieEnabled)? true : false;
+        if(!cookiesEnabled){
+          var q = document.getElementById('no-cookie-warning');q.style.display = 'block';
+        }
+      });
+  //]]>
+  </script>
+  <div id="trk_captcha_js" style="background-image:url('/cdn-cgi/images/trace/captcha/nojs/h/transparent.gif?ray=6d3b0d811bd8862d')"></div>
+</form>
+  
+
+
+              </div>
+            </div>
+
+            <div class="cf-column">
+              <div class="cf-screenshot-container">
+              
+                <span class="cf-no-screenshot"></span>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cf-section cf-wrapper">
+        <div class="cf-columns two">
+          <div class="cf-column">
+            <h2 data-translate="why_captcha_headline">Why do I have to complete a CAPTCHA?</h2>
+            
+            <p data-translate="why_captcha_detail">Completing the CAPTCHA proves you are a human and gives you temporary access to the web property.</p>
+          </div>
+
+          <div class="cf-column">
+            <h2 data-translate="resolve_captcha_headline">What can I do to prevent this in the future?</h2>
+            
+
+            <p data-translate="resolve_captcha_antivirus">If you are on a personal connection, like at home, you can run an anti-virus scan on your device to make sure it is not infected with malware.</p>
+
+            <p data-translate="resolve_captcha_network">If you are at an office or shared network, you can ask the network administrator to run a scan across the network looking for misconfigured or infected devices.</p>
+            
+              
+            
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+  <p class="text-13">
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">6d3b0d811bd8862d</strong></span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Your IP</span>: 34.93.26.170</span>
+    <span class="cf-footer-separator sm:hidden">&bull;</span>
+    <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing" id="brand_link" target="_blank">Cloudflare</a></span>
+    
+  </p>
+</div><!-- /.error-footer -->
+
+
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  window._cf_translation = {};
+  
+  
+</script>
+
+
+</body>
+</html>
+
