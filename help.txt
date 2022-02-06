@@ -1,0 +1,87 @@
+## Logging in 
+
+1. use ssh connection to log in
+
+pre-requisits:
+1. user should have ssh keys (check email or create new key pair)
+2. ill send my ssh key to you in email -> so you can use that
+3. keep the ssh key is a file in your system
+
+steps 1 to 3 are one time setup
+
+command to connect
+
+Ssh command: ssh -i <location to ssh key> <username>@<external_ip>
+
+Note : <external_ip> will change if you restart the machine
+always confirm by taking it from GCP UI 
+
+eg :
+    ssh -i ~/.ssh/gcp/wallettracking wallettracking@34.93.73.212
+Passphrase : gcp@2022
+
+command to copy a file from local system to cloud system:
+
+    scp -i <location to ssh key> <file which you want to copy from your system <username>@<external_ip>:~/<location to where you want to paste the file in GCP machine>
+    eg : scp -i ~/.ssh/gcp/wallettracking lookup.xlsx wallettracking@34.93.73.212:~/projects/EtherScan/lookup
+
+
+
+## Execution 
+
+1. to execute all code,
+
+    use the command 'pwd' to get the location where we are currently
+    run the command 'ls' to check all files/ folders present in the location where we are currently (pwd will give us the current location)
+    use 'cd <folder_name>' to go inside a folder_name
+    use 'cd ../' command to go one folder backwards
+    run ./runApp.sh -> Note that the file ./runApp.sh should be present in the location where are currently (check whether the file is present using 'ls -l')
+    this command will run all the code (7 Wallet tracking and twitter bot in BACKGROUND )
+
+2. to check whether the code is running in background:
+    run the command 'tmux ls' to see all the codes/ sessions running in background
+
+    TMUX commands
+
+    ## Basic cmd:
+        tmus ls -> shows all active sessions
+        tmux a -> takes users inside the last created session (mostly it will be twitter bot in this example, but it can change)
+
+        ## go to specific sessions:
+        syntax :
+            tmux a -t <session_name>
+            eg:
+                tmux a -t EtherScan
+                tmux a -t FTMScan
+
+        ## link:
+        https://gist.github.com/henrik/1967800,
+        https://tmuxcheatsheet.com0/
+
+        ## navigate between existing session:
+        ctrl + b ) -> next session
+        ctrl + b ( -> previos session
+        ctrl + b d -> detach session
+
+3. close all sessions
+
+    Note -> the python code running for all WalletTracking is 'WalletTracking.py' (7 wallet trackinngs sessions are running)
+    Note -> the python program running twitter monitoring is 'TwitterAPI_app.py'(only 1 session is running )
+    Note -> total 8 sessions will be present (7 + 1)
+    'tmux ls' command should show 8 active sessions if all are running
+    the command to kill all sessions running based on the file name is
+        pkill -f <file_name>
+
+        1. run 'pkill -f WalletTracking.py' to kill all 7 sessions that are running wallet tracking code
+        2. run 'pkill -f TwitterAPI_app.py' to kill 1 session which is running Twitter bot
+
+    after killing the sessions,
+
+    'tmux ls' command should not display the sessions which are killed
+    if all sessions are killed 'tmux -ls' should display 0 sessions
+
+    NOTE -> truning off / restarting the instance is enough to kill all sessions
+
+
+
+
