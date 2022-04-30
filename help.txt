@@ -24,6 +24,7 @@ command to copy a file from local system to cloud system:
 
     scp -i <location to ssh key> <file which you want to copy from your system <username>@<external_ip>:~/<location to where you want to paste the file in GCP machine>
     eg : scp -i ~/.ssh/gcp/wallettracking lookup.xlsx wallettracking@34.93.73.212:~/projects/EtherScan/lookup
+    eg2 : scp -i ~/.ssh/gcp/wallettracking Lookup_2022_03_04.xlsx wallettracking@34.93.73.212:~/projects/EtherScan/lookup
 
 
 
@@ -35,6 +36,7 @@ command to copy a file from local system to cloud system:
     run the command 'ls' to check all files/ folders present in the location where we are currently (pwd will give us the current location)
     use 'cd <folder_name>' to go inside a folder_name
     use 'cd ../' command to go one folder backwards
+    before you run make sure no program is running in the beackground (tmux ls)
     run ./runApp.sh -> Note that the file ./runApp.sh should be present in the location where are currently (check whether the file is present using 'ls -l')
     this command will run all the code (7 Wallet tracking and twitter bot in BACKGROUND )
 
@@ -56,7 +58,7 @@ command to copy a file from local system to cloud system:
 
         ## link:
         https://gist.github.com/henrik/1967800,
-        https://tmuxcheatsheet.com0/
+        https://tmuxcheatsheet.com/)
 
         ## navigate between existing session:
         ctrl + b ) -> next session
