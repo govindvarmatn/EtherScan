@@ -20,3 +20,4 @@ SingleStoreConn_obj = SingleStoreConn(app_name)
 print('inserting data to SingleStore object')
 SingleStoreConn_obj.insert_data(df)
 print(f'completed inserting {df.shape[0]} records to SingleStore DB')
+

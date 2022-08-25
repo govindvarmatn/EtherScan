@@ -48,3 +48,109 @@ cd ../twitterFolloweeMonitor
 echo "Executing twitter followee monitoring ..!"
 echo "Inside directory ${PWD}"
 tmux new-session -d -s TwitterMonitor "./venv/bin/python TwitterAPI_app.py"
+
+
+
+
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: wallet_tracking
+spec:
+    replicas: 1
+    selector:
+    matchLabels:
+        app: wallet_tracking
+    template:
+    metadata:
+        labels:
+        app: wallet_tracking
+    spec:
+        containers:
+        - name: wallet_tracking
+
+        image: asia.gcr.io/heroic-arbor-338015/wallet_tracking_image:version1.0
+
+        ports:
+        - containerPort: 80
+        env:
+            - name: PORT
+            - value: "80"
+
+
+
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        ports:
+        - containerPort: 8080
+
+
+
+
+FROM debian:latest
+
+WORKDIR /EtherScan
+
+ADD . /WalletTracking.py
+
+
+COPY requirements.txt requirements.txt
+
+COPY . .
+
+
+RUN : \
+    && apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        software-properties-common \
+    && add-apt-repository -y ppa:deadsnakes \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+        python3.8-venv \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* \
+    && :
+
+
+ENV DEBIAN_FRONTEND noninteractive
+ENV TERM xterm
+RUN dpkg --add-architecture i386 && \
+    apt-get install -y tmux
+
+RUN tmux new -s mysesh
+
+
+RUN python3.8 -m venv /venv
+ENV PATH=/venv/bin:$PATH
+
+RUN tmux ls
+RUN source venv/bin/activate
+
+RUN python -m pip install --upgrade pip
+
+RUN pip install -r requirements.txt
+
+RUN pip install pandas
+
+
+EXPOSE 80
+
+CMD ['sh' 'runApp.sh']
